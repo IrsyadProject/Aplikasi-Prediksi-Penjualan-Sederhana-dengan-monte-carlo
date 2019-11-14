@@ -9,9 +9,6 @@ Release Information
 *******************
 
 Demo Aplikasi ada di link berikut : http://siprediksi.itb.sch.id/
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
 
 **************************
 Changelog and New Features
