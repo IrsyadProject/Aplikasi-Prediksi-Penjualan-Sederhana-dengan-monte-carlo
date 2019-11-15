@@ -51,5 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'Front_Controller';
 $route['about'] = 'Front_Controller/tentang';
+$route['hitung'] = 'Front_Controller/hitung';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
