@@ -6,7 +6,7 @@
 				<div class="card border-dark">
 					<div class="card-header bg-dark text-light text-center font-weight-bold"><i class="fas fa-fw fa-calculator"></i> APLIKASI PREDIKSI PENJUALAN DENGAN MONTE CARLO</div>
 					<div class="card-body">
-						<form action="Front_Controller/hitung" method="post" class="">
+						<form action="<?= base_url('hitung'); ?>" method="post" class="">
 						<div class="row justify-content-center">
 								<div class="col-md-5 ml-2">
 									<div class="card border-dark">
@@ -15,34 +15,44 @@
 										</div>
 										<div class="card-body">
 											<div class="form-group">
-												<input type="text" name="per1" placeholder="permintaan 1" class="form-control" required>
+												<input type="text" name="per1" placeholder="permintaan 1" class="form-control">
+												<?= form_error('per1','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per2" placeholder="permintaan 2" class="form-control" required>
+												<input type="text" name="per2" placeholder="permintaan 2" class="form-control">
+												<?= form_error('per2','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per3" placeholder="permintaan 3" class="form-control" required>
+												<input type="text" name="per3" placeholder="permintaan 3" class="form-control">
+												<?= form_error('per3','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per4" placeholder="permintaan 4" class="form-control" required>
+												<input type="text" name="per4" placeholder="permintaan 4" class="form-control">
+												<?= form_error('per4','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per5" placeholder="permintaan 5" class="form-control" required>
+												<input type="text" name="per5" placeholder="permintaan 5" class="form-control">
+												<?= form_error('per5','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per6" placeholder="permintaan 6" class="form-control" required>
+												<input type="text" name="per6" placeholder="permintaan 6" class="form-control">
+												<?= form_error('per6','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per7" placeholder="permintaan 7" class="form-control" required>
+												<input type="text" name="per7" placeholder="permintaan 7" class="form-control">
+												<?= form_error('per7','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per8" placeholder="permintaan 8" class="form-control" required>
+												<input type="text" name="per8" placeholder="permintaan 8" class="form-control">
+												<?= form_error('per8','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per9" placeholder="permintaan 9" class="form-control" required>
+												<input type="text" name="per9" placeholder="permintaan 9" class="form-control">
+												<?= form_error('per9','<small class="text-danger">','</small>'); ?>
 											</div>
 											<div class="form-group">
-												<input type="text" name="per10" placeholder="permintaan 10" class="form-control" required>
+												<input type="text" name="per10" placeholder="permintaan 10" class="form-control">
+												<?= form_error('per10','<small class="text-danger">','</small>'); ?>
 											</div>
 										</div>
 									</div>
@@ -55,34 +65,44 @@
 											</div>
 											<div class="card-body">
 												<div class="form-group">
-													<input type="text" name="fr1" placeholder="Frekuensi 1" class="form-control" required>
+													<input type="text" name="fr1" placeholder="Frekuensi 1" class="form-control">
+													<?= form_error('fr1','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr2" placeholder="Frekuensi 2" class="form-control" required>
+													<input type="text" name="fr2" placeholder="Frekuensi 2" class="form-control">
+													<?= form_error('fr2','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr3" placeholder="Frekuensi 3" class="form-control" required>
+													<input type="text" name="fr3" placeholder="Frekuensi 3" class="form-control">
+													<?= form_error('fr3','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr4" placeholder="Frekuensi 4" class="form-control" required>
+													<input type="text" name="fr4" placeholder="Frekuensi 4" class="form-control">
+													<?= form_error('fr4','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr5" placeholder="Frekuensi 5" class="form-control" required>
+													<input type="text" name="fr5" placeholder="Frekuensi 5" class="form-control">
+													<?= form_error('fr5','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr6" placeholder="Frekuensi 6" class="form-control" required>
+													<input type="text" name="fr6" placeholder="Frekuensi 6" class="form-control">
+													<?= form_error('fr6','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr7" placeholder="Frekuensi 7" class="form-control" required>
+													<input type="text" name="fr7" placeholder="Frekuensi 7" class="form-control">
+													<?= form_error('fr7','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr8" placeholder="Frekuensi 8" class="form-control" required>
+													<input type="text" name="fr8" placeholder="Frekuensi 8" class="form-control">
+													<?= form_error('fr8','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr9" placeholder="Frekuensi 9" class="form-control" required>
+													<input type="text" name="fr9" placeholder="Frekuensi 9" class="form-control">
+													<?= form_error('fr9','<small class="text-danger">','</small>'); ?>
 												</div>
 												<div class="form-group">
-													<input type="text" name="fr10" placeholder="Frekuensi 10" class="form-control" required>
+													<input type="text" name="fr10" placeholder="Frekuensi 10" class="form-control">
+													<?= form_error('fr10','<small class="text-danger">','</small>'); ?>
 												</div>
 											</div>
 										</div>
