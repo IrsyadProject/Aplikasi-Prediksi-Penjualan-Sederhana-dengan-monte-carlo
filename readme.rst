@@ -8,8 +8,6 @@ Si Prediksi V.1 Merupakan Aplikasi Prediksi Penjualan Sederhana menggunakan meto
 Release Information
 *******************
 
-Demo Aplikasi ada di link berikut : http://siprediksi.itb.sch.id/
-
 **************************
 Changelog and New Features
 **************************
